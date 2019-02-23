@@ -1,8 +1,5 @@
-a=int(input("escriba un numero"))
-c=5
-
-producto=a*c
-doble=2*a
-
-print("el producto de ",a," y ",c," es ",producto)
-print("el doble producto de ",a," es ",doble)
+import math
+b=int(input("ingrese el primer numero"))
+d=int(input("ingrese el segundo numero"))
+print("el cuadrado del numero ",b," es " , b**2)
+print("la raiz cuadrada del numero ",d," es " +str(math.sqrt(d)))
